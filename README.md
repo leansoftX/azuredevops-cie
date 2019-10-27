@@ -1,7 +1,15 @@
 # Azure DevOps CIE
 
+所有参训人员需要具备以下条件：
+
+- 预先完成 Azure DevOps 账号注册
+- 预先完成 Azure 免费账号注册 [注册说明](./GlobalAzureUSD200FreeAccount.pdf)
+
+## 培训日程
+
 - 1.1 9:00-10:00 Azure DevOps简单介绍及微软Azure DevOps案例分享
-  - 演讲
+  - 演讲：
+    - 02-AzureDevOpsOverview-v1.pptx
   - 介绍Azure DevOps现状及主要功能简介。
 
 - 1.2 10:00-11:00 Azure DevOps 看板及代码管理功能展示
@@ -17,7 +25,9 @@
 午休
 
 - 1.4 13:00-14:00 Azure Pipeline的搭建介绍
-  - 演示
+  - 演讲+演示：
+    - 03-Build-v1.pptx
+    - 04-ReleaseMangement-v1.pptx
   - 演示如何在Azure DevOps Service中配置自动化编译及自动化部署,如何基于看板、Git等功能创建广义交付流水线
   - 资源
     - <https://almvm.devopshub.cn/labs/azuredevops/git/>
@@ -31,16 +41,17 @@
 
 茶歇 10 分钟
 
-- 1.6 15:10-16:00 Azure DevOps测试管理 Artifact管理 Azure DevOps Dashboard配置
-  - 演示
-  - 演示如何使用Azure DevOps进行测试，包管理以及如何在仪表盘页面展示团队软件研发情况
+- 1.6 15:10-16:00 Azure DevOps测试管理
+  - 演讲 + 演示
+    - 05-TestManagement-v1.pptx
+  - 演示如何使用Azure DevOps进行测试
 
-- 1.7 16:00-17:00 Azure DevOps 测试管理、Artifact管理、Dashboard配置练习
+- 1.7 16:00-17:00 Azure DevOps 测试管理
   - 练习
-  - 完成样例项目的测试计划、测试用例的编写及运行。包管理源配置及包的维护。将所有练习中的数据展示在仪表板中
+  - 完成样例项目的测试计划、测试用例的编写及运行。
   - <https://almvm.devopshub.cn/labs/vsts/testmanagement/>
 
-相关资料：
+## 相关资料
 
 - Azure Pipeline Build Agent Source <https://github.com/microsoft/azure-pipelines-agent>
 - Azure Pipeline Build Tasks <https://github.com/Microsoft/azure-devops-extension-tasks>
