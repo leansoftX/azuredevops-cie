@@ -5,6 +5,19 @@
 - 预先完成 Azure DevOps 账号注册
 - 预先完成 Azure 免费账号注册 [注册说明](./GlobalAzureUSD200FreeAccount.pdf)
 
+讲师需要完成以下准备：
+
+- 使用Demo Generator创建PartsUnlimited项目
+- 在PartsUnlimited项目中完成
+  - Build: PartsUnlimitedE2E 的触发，确保构建成功完成
+  - Release: PartsUnlimitedE2E的配置和触发，确保Dev/QA/Production环境全部部署成功
+  - Branch Policy：在master分支上启用以下分支策略
+    - Require a minimum number of reviewers (允许 Requestors can approve their own changes)
+    - Check for linked work items
+    - Check for comment resolution
+    - Build validation
+      - 选择：PartsUnlimitedE2E
+
 ## 培训日程
 
 - 1.1 9:00-10:00 Azure DevOps简单介绍及微软Azure DevOps案例分享
@@ -14,8 +27,11 @@
 
 - 1.2 10:00-11:00 Azure DevOps 看板及代码管理功能展示
   - 演示
-  - 演示Azure Board功能，介绍如何使用看板，迭代积压工作列表等功能管理项目进度
-  - Azure Repo的源代码管理介绍：TFVC代码及文档管理，如何借助Git功能进行面向交付的版本管
+    - 02-AzureDevOpsOverview-v1.pptx 最后的基于Git的特定分支模式一页完成以下演示
+  - 端到端广义流水线：演示看板功能，从看板卡片创建分支，在分支上提交代码并创建PR，通过PR触发构建并完成Dev-QA-PROD环境的部署
+  - 参考资源（学员无需做实验）
+    - <https://almvm.devopshub.cn/labs/azuredevops/git/>
+    - <https://almvm.devopshub.cn/labs/azuredevops/pullrequests/>
 
 - 1.3 11:00 – 12:00 Azure DevOps Service 看板管理练习
   - 练习
@@ -28,10 +44,7 @@
   - 演讲+演示：
     - 03-Build-v1.pptx
     - 04-ReleaseMangement-v1.pptx
-  - 演示如何在Azure DevOps Service中配置自动化编译及自动化部署,如何基于看板、Git等功能创建广义交付流水线
-  - 资源
-    - <https://almvm.devopshub.cn/labs/azuredevops/git/>
-    - <https://almvm.devopshub.cn/labs/azuredevops/pullrequests/>
+  - 演示如何在Azure DevOps Service中配置自动化编译及自动化部署
 
 - 1.5 14:00-15:00 Azure Pipeline搭建及运行练习
   - 练习
