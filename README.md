@@ -42,6 +42,12 @@
 
 相关资料：
 
+- Azure Pipeline Build Agent Source <https://github.com/microsoft/azure-pipelines-agent>
+- Azure Pipeline Build Tasks <https://github.com/Microsoft/azure-devops-extension-tasks>
+- Marketplace <https://marketplace.visualstudio.com/azuredevops>
+- Azure DevOps Extension Development Guide <https://docs.microsoft.com/en-us/azure/devops/extend/get-started/node?view=azure-devops>
+- Azure Pipline Built-in Variables <https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml>
+
 - [Blog 绑定Git Pull Request和部署目标环境](https://devopshub.cn/2018/05/03/git-pull-request-binding-to-target-environment/)
 
 - [视频：中国农业银行敏捷转型和看板秘籍分享](https://mp.weixin.qq.com/s?__biz=MzA5NzU3Njc5Mw==&mid=2651203177&idx=1&sn=85aef93f6d2f94dbf5157562983f7f63&chksm=8b6c345fbc1bbd494ac8f8e048e4fd105567fbb5078469f9c528e5f823cb4a4e91099b4b833f&mpshare=1&scene=1&srcid=1027QlkAX6kV93FxFIpgTqMf&sharer_sharetime=1572148802075&sharer_shareid=0c3fa1c9154ead4beb54fbbaad0db1d0&key=ffa2fa9c0f0d785dbfad1869589618ba4779be923b34d8f5fe7307b6259aed07e077f70fef2fb2fa036deeae1703260cf1da21cad0bef206d22a59df2ba3f6fa3bbf079171e405a0b0d69d9554b95ff0&ascene=1&uin=MzgwNjc5MDk1&devicetype=Windows+10&version=62070152&lang=zh_CN&pass_ticket=XKVG3HeaMs%2FwKBsPzpgWGAK4SKEkdXbuc88z2c09OkyjqvSkkPi9El2tz6hI0%2Fq5)
